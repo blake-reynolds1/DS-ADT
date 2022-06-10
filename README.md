@@ -98,8 +98,41 @@
         - E.g., double the value of max_list, and copy all the values
         - Very expensive
      - List, clear, empty, full, sizez, replace and retrieve operate in constant time
+  - <img width="642" alt="Screen Shot 2022-06-09 at 6 16 40 PM" src="https://user-images.githubusercontent.com/89602311/172960533-a39962cf-3556-4611-965c-a26ca59fb391.png">
 ## Singly Linked Implementation
 * <img width="383" alt="Screen Shot 2022-06-09 at 5 25 44 PM" src="https://user-images.githubusercontent.com/89602311/172955405-f67b5d50-6cf8-4a76-812e-c96cfbe60b56.png">
 * How to create the nodes?
 * How to link them together?
-
+* <img width="642" alt="Screen Shot 2022-06-09 at 6 16 40 PM" src="https://user-images.githubusercontent.com/89602311/172960533-a39962cf-3556-4611-965c-a26ca59fb391.png">
+* We need to define the node to be linked
+  - In a real case, a node can be big
+    - Including several data fields, e.g., name, age and email, for a person in a linked list for all people in the office
+  - For simplicity, we just use entry for the data field
+  - <img width="420" alt="Screen Shot 2022-06-09 at 6 22 22 PM" src="https://user-images.githubusercontent.com/89602311/172961051-75bcf268-fdae-443c-a29a-02087eafce41.png">
+* Class skeleton 
+* <img width="436" alt="Screen Shot 2022-06-09 at 6 23 14 PM" src="https://user-images.githubusercontent.com/89602311/172961239-2af13f6b-853f-4a96-891f-88eb59c744ef.png">
+* Set position method
+* <img width="421" alt="Screen Shot 2022-06-09 at 6 25 28 PM" src="https://user-images.githubusercontent.com/89602311/172961277-fccda56a-5460-4869-b9b2-3561ff9dcf68.png">
+  - If all nodes are equally likely accessed, then, on average, the set position function must move halfway through the List to find a position
+  - On average, its time requirement is approximately proportional to n, the size of the List
+* Insertion method
+* <img width="429" alt="Screen Shot 2022-06-09 at 6 26 20 PM" src="https://user-images.githubusercontent.com/89602311/172961340-3086dbf3-08ef-42ff-9565-1c1e4e620130.png">
+* <img width="465" alt="Screen Shot 2022-06-09 at 6 26 39 PM" src="https://user-images.githubusercontent.com/89602311/172961363-d6fc4198-0965-4dc3-898d-6a9de7883687.png">
+* Discussion
+  - In processing a linked List with n entries:
+    - Clear, insert, remove, retrieve, and replace require time approximately proportional to n
+    - List, empty, full and size operate in constant time
+  - Doubly Linked Lists
+    - Optional
+  - <img width="609" alt="Screen Shot 2022-06-09 at 6 28 07 PM" src="https://user-images.githubusercontent.com/89602311/172961490-0047d5ad-f752-4183-91ef-4f6610a452aa.png">
+## Contiguous vs Linked Implementations
+* Contiguous storage is generally preferable (Locality)
+   - when the entries are indicidually very small;
+   - when the size of the list is known when the program is written;
+   - when few insertions or deletions need to be made except at the end of the list
+   - when random access is important.
+* Linked storage proves superior
+  - when the entries are large;
+  - when the size of the list is not known in advance; and
+  - when flexibility is needed in inserting, deleting, and rearrannging the entries.
+## Self Test
