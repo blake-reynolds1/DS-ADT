@@ -135,3 +135,11 @@
   - when the entries are large;
   - when the size of the list is not known in advance; and
   - when flexibility is needed in inserting, deleting, and rearrannging the entries.
+## Self Test
+* Maintain a linked list, where each node is an English word
+  - Create a list for “Stacks are Lists”
+  - Insert “simple” before “Lists”
+  - Replace “Lists” by “Structures” and insert “but important data” before “Structures”
+  - Remove “simple but"
+* <img width="524" alt="Screen Shot 2022-06-14 at 5 33 42 PM" src="https://user-images.githubusercontent.com/89602311/173700362-d45b9480-839d-4462-8301-d26be9a33a66.png">
+* Cycle detection in a linked list https://www.hackerrank.com/challenges/detectwhether-a-linked-list-contains-a-cycle/problem
