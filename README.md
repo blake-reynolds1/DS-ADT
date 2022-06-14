@@ -135,4 +135,3 @@
   - when the entries are large;
   - when the size of the list is not known in advance; and
   - when flexibility is needed in inserting, deleting, and rearrannging the entries.
-## Self Test
