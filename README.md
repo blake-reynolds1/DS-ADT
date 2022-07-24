@@ -86,8 +86,10 @@
     -  void (*visit)(List_entry &): *visit is a function pointer - address of a function takes a List_entry as input without output (void)
     - Pass the function pointer to another function: leaving details to the clients
   - Error_code
+  - <img width="835" alt="Screen Shot 2022-07-24 at 5 46 37 PM" src="https://user-images.githubusercontent.com/89602311/180668902-3d5c3bea-78c6-4307-8b7d-ac19fcb57d25.png">
+
 * Insertion method
-*<img width="429" alt="Screen Shot 2022-06-09 at 5 10 12 PM" src="https://user-images.githubusercontent.com/89602311/172953719-9ace7263-265b-48e8-ab37-b71afe14e531.png">
+* <img width="429" alt="Screen Shot 2022-06-09 at 5 10 12 PM" src="https://user-images.githubusercontent.com/89602311/172953719-9ace7263-265b-48e8-ab37-b71afe14e531.png">
 * Transversal 
 * <img width="424" alt="Screen Shot 2022-06-09 at 5 19 56 PM" src="https://user-images.githubusercontent.com/89602311/172954755-64c6c9eb-a764-4432-b3a6-f5254fc3df89.png">
 * Discussion 
