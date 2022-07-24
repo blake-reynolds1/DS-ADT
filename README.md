@@ -80,7 +80,7 @@
 ## Contiguous Implementation
 * <img width="462" alt="Screen Shot 2022-06-09 at 4 56 29 PM" src="https://user-images.githubusercontent.com/89602311/172952012-b254f551-5ee3-455e-bc22-63b229d0bb9d.png">
 * Denote 
-  - List_class
+  - List_entry
     - A name for the generic type: recall the review of function template and class template in the previous lecture
   - void transverse(void (*visit)(List_entry &))
     -  void (*visit)(List_entry &): *visit is a function pointer - address of a function takes a List_entry as input without output (void)
